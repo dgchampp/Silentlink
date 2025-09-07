@@ -1,5 +1,5 @@
 {
-  "name": "Silentlink",
+  "name": "chat-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,8 +9,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "framer-motion": "^12.23.12"
-  }
+  "license": "ISC"
 }
