@@ -37,47 +37,47 @@ The app is designed for **simplicity** — single login takes users straight to 
 
 ## 📁 Project Structure
 
+```text
 silentlink/
-├── frontend/ # React frontend
-│ ├── public/
-│ └── src/
-│ ├── components/
-│ │ ├── ChatList.jsx
-│ │ ├── ChatWindow.jsx
-│ │ ├── MessageInput.jsx
-│ │ └── Navbar.jsx
-│ ├── pages/
-│ │ ├── Login.jsx
-│ │ └── ChatHome.jsx
-│ ├── context/AuthContext.jsx
-│ ├── hooks/useSocket.js
-│ ├── utils/api.js
-│ └── App.jsx
-│ ├── package.json
-│ └── README.md
-├── backend/ # Node.js backend
-│ ├── models/
-│ │ ├── User.js
-│ │ ├── Conversation.js
-│ │ └── Message.js
-│ ├── routes/
-│ │ ├── auth.js
-│ │ ├── users.js
-│ │ └── messages.js
-│ ├── middleware/
-│ │ ├── auth.js
-│ │ └── validate.js
-│ ├── sockets/
-│ │ └── index.js
-│ ├── utils/
-│ │ └── logger.js
-│ ├── server.js
-│ ├── package.json
-│ └── .env
+├── frontend/                      # React frontend
+│   ├── public/
+│   └── src/
+│       ├── components/
+│       │   ├── ChatList.jsx
+│       │   ├── ChatWindow.jsx
+│       │   ├── MessageInput.jsx
+│       │   └── Navbar.jsx
+│       ├── pages/
+│       │   ├── Login.jsx
+│       │   └── ChatHome.jsx
+│       ├── context/AuthContext.jsx
+│       ├── hooks/useSocket.js
+│       ├── utils/api.js
+│       ├── App.jsx
+│       ├── package.json
+│       └── README.md
+├── backend/                       # Node.js backend
+│   ├── models/
+│   │   ├── User.js
+│   │   ├── Conversation.js
+│   │   └── Message.js
+│   ├── routes/
+│   │   ├── auth.js
+│   │   ├── users.js
+│   │   └── messages.js
+│   ├── middleware/
+│   │   ├── auth.js
+│   │   └── validate.js
+│   ├── sockets/
+│   │   └── index.js
+│   ├── utils/
+│   │   └── logger.js
+│   ├── server.js
+│   ├── package.json
+│   └── .env
 ├── .gitignore
 └── README.md
-
----
+```
 
 ## ⚙️ Environment Setup
 
