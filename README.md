@@ -118,7 +118,7 @@ npm install
 npm run dev   # starts frontend (Vite)
 ```
 3. Access the app
-
+```bash
 Frontend: http://localhost:5173
 Backend API: http://localhost:5000
 ```
