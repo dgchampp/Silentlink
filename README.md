@@ -94,33 +94,36 @@ JWT_ACCESS_SECRET=your_access_secret
 JWT_REFRESH_SECRET=your_refresh_secret
 JWT_ACCESS_EXPIRES=15m
 JWT_REFRESH_EXPIRES=30d
+```
 
-🚀 Getting Started
+# Getting Started
 1. Clone the repository
+```bash
 git clone https://github.com/dgchampp/Silentlink.git
 cd Silentlink
-
-2. Install dependencies
+```
+3. Install dependencies
 
 Backend
-
+```bash
 cd backend
 npm install
 npm run dev   # starts backend with nodemon
-
+```
 
 Frontend
-
+```bash
 cd ../frontend
 npm install
 npm run dev   # starts frontend (Vite)
-
+```
 3. Access the app
 
 Frontend: http://localhost:5173
 Backend API: http://localhost:5000
-
+```
 📱 API Overview
+```text
 🔑 Auth
 
 POST /api/auth/register → Register new user
@@ -133,15 +136,16 @@ GET /api/auth/me → Get current user
 GET /api/users/search?q=term → Search users
 GET /api/users/:id → Get user profile
 
+```
 💬 Conversations & Messages
-
+```text
 POST /api/messages/conversation → Start/find conversation
 GET /api/messages/conversations → List conversations
 GET /api/messages/:conversationId → Get conversation messages
 POST /api/messages → Send message
-
-🔌 Socket.IO Events
-
+```
+#Socket.IO Events
+```text
 Client → Server
 join → { userId }
 message:send → { conversationId, text }
@@ -151,9 +155,9 @@ message:new → new message event
 message:read → read receipt update
 presence:update → user online/offline
 typing → typing indicator
-
-🧩 Database Models (Mongoose)
-
+```
+# Database Models (Mongoose)
+```text
 User { name, email, passwordHash, avatar?, createdAt }
 
 Conversation { participants: [ObjectId<User>], lastMessage?, createdAt }
