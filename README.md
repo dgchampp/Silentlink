@@ -11,11 +11,11 @@ Please check the site , hosted on render [silentlink.onrender.com](silentlink.on
 
 - **JWT Authentication** – secure register/login with password hashing
 - **Realtime Chat** – 1-to-1 messaging using Socket.IO
-- **Online Presence** – see who’s online
+- **Online Presence (Socket.io)** – see who’s online
 - **Typing Indicators** – know when the other person is typing
 - **Message States** – sent, delivered, read receipts
 - **Search Users** – find other users to chat with
-- **Media Sharing** – send images/files (optional)
+- **Media Sharing (cloudinary)** – send images/files (optional)
 - **Responsive UI** – optimized for both desktop & mobile
 
 ### 🛡️ Security
