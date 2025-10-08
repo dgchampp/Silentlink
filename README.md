@@ -3,8 +3,8 @@
 SilentLink is a modern **MERN-based chat application** with **secure authentication** and **realtime one-to-one messaging** powered by **Socket.IO**.  
 The app is designed for **simplicity** — single login takes users straight to the chat home to start conversations instantly.
 ---
-## Demo Link 
-This site is hosted on render [Demo Link](https://pages.github.com/)
+## Live Demo
+This site is hosted on render [silentlink.onrender.com](silentlink.onrender.com)
 ## ✨ Features
 
 ### 👤 User Features
