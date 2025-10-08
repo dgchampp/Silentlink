@@ -1,4 +1,4 @@
-# 🚀 SilentLink — Private 1-to-1 Chat (MERN + Socket.IO)
+# 🚀 SilentLink — Private 1-to-1 Chat (MERN + Socket.IO) Live link : silentlink.onrender.com
 
 SilentLink is a modern **MERN-based chat application** with **secure authentication** and **realtime one-to-one messaging** powered by **Socket.IO**.  
 The app is designed for **simplicity** — single login takes users straight to the chat home to start conversations instantly.
