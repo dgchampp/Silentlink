@@ -1,13 +1,18 @@
-# 🚀 SilentLink — Private 1-to-1 Chat (MERN + Socket.IO)  
+# SilentLink — Private 1-to-1 Chat (MERN + Socket.IO)  
 
 SilentLink is a modern **MERN-based chat application** with **secure authentication** and **realtime one-to-one messaging** powered by **Socket.IO**.  
 The app is designed for **simplicity** — single login takes users straight to the chat home to start conversations instantly.
 ---
 ## Live Demo
 Please check the site , hosted on render [silentlink.onrender.com](silentlink.onrender.com)
-## ✨ Features
 
-### 👤 User Features
+### Login page
+Please feel free Demo credentials button to login if do not wish  to Sign up.
+![Login Pagel](https://github.com/dgchampp/Silentlink/blob/main/loginp)
+
+##  Features
+
+###  User Features
 
 - **JWT Authentication** – secure register/login with password hashing
 - **Realtime Chat** – 1-to-1 messaging using Socket.IO
@@ -27,7 +32,11 @@ Please check the site , hosted on render [silentlink.onrender.com](silentlink.on
 
 ---
 
-## 🏗️ Tech Stack
+
+### Chat Page
+Below is designed and implemented model.![Chat Page](https://github.com/dgchampp/Silentlink/blob/main/chat_page.jpg)
+
+## Tech Stack
 
 **Frontend**: React, React Router, Axios, Socket.IO Client, Bootstrap/Tailwind  
 **Backend**: Node.js, Express.js, MongoDB, Mongoose, Socket.IO  
@@ -35,7 +44,7 @@ Please check the site , hosted on render [silentlink.onrender.com](silentlink.on
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 silentlink/
